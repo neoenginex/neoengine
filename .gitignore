@@ -1,0 +1,21 @@
+# Environment
+.env
+
+# Build artifacts
+/build/
+/android/app/build/
+/ios/Pods/
+/*.apk
+
+# Dependencies
+/node_modules/
+/.pnpm/
+/.yarn/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store

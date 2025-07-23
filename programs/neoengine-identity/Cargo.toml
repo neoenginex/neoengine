@@ -1,0 +1,20 @@
+[package]
+name = "neoengine-identity"
+version = "0.1.0"
+description = "NeoEngine Soulbound Identity Token Contract"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "neoengine_identity"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { workspace = true }
+anchor-spl = { workspace = true }

@@ -1,0 +1,19 @@
+[package]
+name = "neoengine-rewards"
+version = "0.1.0"
+description = "NeoVault protocol for reward distribution and asset management"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "neoengine_rewards"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.1"
